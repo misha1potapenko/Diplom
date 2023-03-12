@@ -1,3 +1,4 @@
+
 class Dog():
     """Простая модель собаки"""
 
@@ -10,3 +11,10 @@ class Dog():
         """Собака садиться по команде"""
         print(f"{self.name} is now sitting")
 
+    def roll_over(self):
+        """Собака перекатывается по команде"""
+        print(f"{self.name} rolled over!")
+
+
+my_dog = Dog("willl", 6)
+my_dog.sit()
