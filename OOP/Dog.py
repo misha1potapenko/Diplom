@@ -1,20 +1,19 @@
-
-class Dog():
+class Dog:
     """Простая модель собаки"""
-
-    def __int__(self, name, age):
+    def __init__(self, name, age):
         """Инициализирует атрибуты name и age"""
-        self.name = name
-        self.age = age
+        self.n = name
+        self.a = age
 
     def sit(self):
         """Собака садиться по команде"""
-        print(f"{self.name} is now sitting")
+        print(f"{self.n} is now sitting")
 
     def roll_over(self):
         """Собака перекатывается по команде"""
-        print(f"{self.name} rolled over!")
+        print(f"{self.n} rolled over!")
 
 
-my_dog = Dog("willl", 6)
-my_dog.sit()
+new_dog = Dog('bus', 5)
+
+new_dog.sit()
